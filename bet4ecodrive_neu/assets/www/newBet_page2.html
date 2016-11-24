@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Bet4EcoDrive</title>
+  <script type="text/javascript" charset="utf-8" src="js/cordova.js"></script>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.mobile-1.4.2.min.js"></script>
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/bluetooth.js"></script>
+  <!-- Only for map -->
+ <link rel="stylesheet" type="text/css" href="css/esri.css">
+ <script type="text/javascript" src="js/arcgis-3.9.js"></script>
+ <!-- <script type="text/javascript" src="js/mapfunctions.js"></script> -->
+ <script type="text/javascript" src="js/dojo.js" data-dojo-config="async: true"></script>
+  <!-- Only for RPM visualization -->
+ <script src="http://code.highcharts.com/highcharts.js"></script>
+ <script src="http://code.highcharts.com/highcharts-more.js"></script>
+ <script src="http://code.highcharts.com/modules/solid-gauge.src.js"></script>
+  
+</head>
+<body class="subPage" onload="setActiveTxt();">
+	<div id="wrapper">
+		<p class="headline">Active Bet</p>
+		<div class="betTxt">
+			<p id="activeBetTxt"></p>
+		</div>
+		<!-- tabs -->
+		<div data-role="tabs" id="tabs" class="marginTop1em">
+		  <div data-role="navbar">
+		    <ul>
+		      <li><a href="#one" class="ui-btn-active" data-ajax="false">Lives</a></li>
+		      <li><a href="#two" data-ajax="false">Graph</a></li>
+		      <li><a href="#three" data-ajax="false">Map</a></li>
+		    </ul>
+		  </div>
+		  <div id="one" class="ui-body-d ui-content">
+		    <!-- <p>Visualization using heards as lives ... no functionallity until yet (herz_gray.png should be used for each "kill")</p>  -->
+		    <table class="centerTbl marginTop2em" border="0">
+	    		<tr>
+	    			<td>
+	    				<img id="life1" class="hardImg"src="images/herz_red.png"/>
+	    			</td>
+	    			<td>
+	    				<img id="life2" class="hardImg"src="images/herz_red.png"/>
+	    			</td>
+	    			<td>
+	    				<img id="life3" class="hardImg"src="images/herz_red.png"/>
+	    			</td>
+	    		</tr>
+    	  </table>
+		  </div>
+		  <div id="two" class="ui-body-d ui-content">
+		    <div id="chart_div">
+				<div id="container-rpm" class="marginTop1em"></div>
+			</div>
+		    
+		    <div id="save">Speichern</div>
+		  </div>
+		  <div id="three" class="ui-body-d ui-content">
+		    <!-- <p>Visualization using a map ... no gps data and functionallity until yet</p>  -->
+		    <div id="mapDiv"></div>
+		  </div>
+		  	  
+		  
+		</div>
+</div>
+
+</body>
+</html>

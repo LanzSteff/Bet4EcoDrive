@@ -1,0 +1,144 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding:0;
+}
+.startPage{
+	background-repeat:no-repeat;
+	background-image:url("../images/background6.png");
+	background-size: cover;
+}
+.subPage{
+	background-repeat:no-repeat;
+	background-image:url("../images/background7.png");
+	background-size: cover;
+}
+p{
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font: Verdana, Arial;
+}
+.headline{
+	color: white !important;
+	font: Verdana, Arial;
+	font-size: 1.4em;
+	font-weight: normal;
+	padding-top: 0.5em;
+}
+#wrapper{
+	width:100%; 
+	height:100%;
+	text-align: center;
+}
+#startPageTbl{
+	margin-top: 13.6em;
+}
+#subpageTbl{
+	margin-top: 8.5em;
+}
+.centerTbl{
+	margin-left: auto;
+	margin-right: auto;
+}
+.tile{
+	width: 8em;
+	height: 8em;
+	margin: 0.1em;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+.greenBckgr{
+	background-color: #5AB548;
+	background-repeat:no-repeat;
+	background-image:url("../images/betIcon.png");
+	background-size: cover;
+}
+.redBckgr{
+	background-color: #97224B;
+	background-repeat:no-repeat;
+	background-image:url("../images/car.png");
+	background-size: cover;
+}
+.blueBckgr{
+	background-color: #0E6E93;
+	background-repeat:no-repeat;
+	background-image:url("../images/statisticsIcon.png");
+	background-size: cover;
+}
+.grayBckgr{
+	background-color: #737674;
+	background-repeat:no-repeat;
+	background-image:url("../images/settingsIcon.png");
+	background-size: cover;
+}
+.homeBckgr{
+	background-color: #737674;
+	background-repeat:no-repeat;
+	background-image:url("../images/homeIcon.png");
+	background-size: cover;
+}
+.tileTxt{
+	padding-top: 0.5em;
+	color: white;
+}
+.tblTxt{
+	color: black;
+}
+.betTxt{
+	padding-top: 3em;
+	text-align: left;
+	padding-left: 1.2em;
+}
+.lineHeightBig{
+	line-height: 2em;
+}
+.marginTop1em{
+	margin-top: 1em;
+}
+.marginTop2em{
+	margin-top: 1em;
+}
+.hardImg{
+	width: 5em;	
+}
+#mapDiv{
+	margin:0 !important;
+	padding:0 !important;
+	width: 100%;
+	height: 11em;
+}
+.carDiv{
+	text-align: left;
+	line-height: 1.8em;
+	margin-top: 4em;
+}
+#carTbl{
+	width: 18em;
+}
+.carImgDiv{
+	border-top: 0.2em solid #ffffff;
+	border-bottom: 0.2em solid #ffffff;
+	background-repeat:no-repeat;
+	background-image:url("../images/vw.png");
+	background-size: cover;
+	width: 100%;
+	height: 10em;
+	margin-bottom: 1em;
+}
+#chart_div{
+	margin: 0 auto;
+}
+#container-rpm{
+	float: left;
+	width: 100%; 
+	height: 12em; 
+	background-color: transparent !important;
+}
+#save{
+	margin-top: 0.5em;
+	color: gray;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bet4EcoDrive</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="choose_bet">Wähle deine Art der Wette:</string>
+    <string name="drehzahl1">Ich wette, dass deine Drehzahl über die nächsten</string>
+    <string name="kilometer">Kilometer</string>
+
+</resources>

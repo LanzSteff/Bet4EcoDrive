@@ -1,0 +1,33 @@
+- Benutzer soll beeinflusst werden durch App
+- 
+- Erste Fahrt um Daten über Nutzer zu sammeln
+- Aufgrund dieser Daten wird Wette erstellt und zweite Fahrt gestartet
+- Nach erster Fahrt Fragen über Bewusstsein stellen
+- 
+- bei jedem GPS obd2 Abfragen
+- Farbige Punkte auf Map (grün - rot)
+- 
+- Forschungsfragen:
+- Führt Wette und Visualizierung zu Verhaltensveränderung?
+- verstärkt die Wette das Bewusstsein?
+- wie gut schätzt du dich selber ein?
+- 
+- sound bei verlust eines lebens
+- 
+- Wichtige Frage:
+- virtueller Drehzahlmesser (Balken!, Zahlen, Hintergrundfarbe, Ballon bläst sich auf, ...)
+- 
+- Video aufnehmen?
+- 
+- christine döttlinger oder oliver janner zwecks obd2
+- Forschungsfragen präzisieren (2 reichen)
+-
+- Test:
+- Interview (demographische Fragen, ...)
+- 1. Fahrt ohne App zum Daten sammeln
+- 
+- 
+- Zeitplan:
+- obd2 Schnittstelle
+- App
+- Setup von Studie (Studienkonzept, Anzahl Leute, Fragebogen, Teststrecke, ...)

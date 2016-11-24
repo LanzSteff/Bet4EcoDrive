@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Bet4EcoDrive</title>
+  <script type="text/javascript" charset="utf-8" src="js/cordova.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body class="subPage">
+	<div id="wrapper">
+		<p class="headline">New Bet</p>
+		<div class="betTxt lineHeightBig">
+			<p>
+				Wetten du schaffst es nicht, während der nächsten 
+				<input id="kilometerInput" name="kilometerInput" type="number" size="10" maxlength="4"> Kilometer die Drehzahl von 
+				<input id="drehzahlInput" name="drehzahlInput" type="number" size="10" maxlength="4"> maximal 3 Mal zu überschreiten!
+			 </p>
+		</div>
+		<table id="subpageTbl" class="centerTbl" border="0">
+    		<tr>
+    			<td>
+    				<div class="tile homeBckgr" onclick="location.href='index.html';">
+    					<p class="tileTxt">Home</p>
+    				</div>
+    			</td>
+    			<td>
+    				<div class="tile greenBckgr" onclick="setBetTxt();">
+    					<p class="tileTxt">Start Bet</p>
+    				</div>
+    			</td>
+    		</tr>
+    	</table>
+	</div>
+</body>
+</html>

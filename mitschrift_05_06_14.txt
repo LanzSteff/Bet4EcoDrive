@@ -1,0 +1,12 @@
+Paper:
+- Beschreibung
+- Forschungsfrage
+- State of the Art
+- Prototyping
+- Studiensetup
+- Studie
+- 
+- reflexion zum schluss (wichtig), conclusion
+- 
+
+nächster Termin: DO 26.06.14
